@@ -1,0 +1,31 @@
+<meta name="title" content="Koinosblocks">
+<meta name="description" content="Koinosblocks allows you to explore Koinos blockchain, search for blocks, transactions, operations and events. You can also verify data and interact with smart contracts">
+<meta name="keywords" content="koinos, koin, blockchain, crypto, explorer, blocks, smart contracts, contract, contracts">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="revisit-after" content="1 days">
+<meta name="author" content="engrave.dev">
+<meta name="format-detection" content="telephone=no">
+<script>
+    window.global = window;
+</script>
+<script type="module">
+    import process from "process";
+    import EventEmitter from "events";
+    import {Buffer} from "buffer";
+    window.Buffer = Buffer;
+    window.process = process;
+    window.EventEmitter = EventEmitter;
+</script>
+<link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,700&display=swap"
+        rel="stylesheet"
+>
+<link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+>
+<div id="app"></div>
+<script type="module" src="/src/main.ts"></script>
+

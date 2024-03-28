@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+
+  app:
+    image: registry.gitlab.com/engrave/koinos/koinosblocks:mainnet-latest
+    networks:
+      - infrastructure
+
+  harbinger:
+    image: registry.gitlab.com/engrave/koinos/koinosblocks:harbinger-latest
+    networks:
+      - infrastructure
+
+networks:
+  infrastructure:
+    external: true
